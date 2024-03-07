@@ -139,11 +139,47 @@ footer {
     translate: 10%;
   }
 
-  input{
+  input {
     width: 440px;
   }
 
-  textarea{
-    width:440px;
+  textarea {
+    width: 440px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1000px) {
+  header {
+    display: block;
+  }
+
+  button {
+    display: block;
+    margin: auto;
+  }
+
+  nav {
+    background-color: #333333;
+    width: 100%;
+  }
+
+  .logo {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+  }
+  .form {
+    display: inline-block;
+    margin-top: 280px;
+    width: 100%;
+    translate: 10%;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  textarea {
+    width: 80%;
   }
 }
